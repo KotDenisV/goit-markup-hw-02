@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+
+.adres .link {
+  color: #434455;
+}
+
+.adres .link:hover,
+.adres .link:focus {
+  color: #404bbf;
+}
+
+.title-1 {
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+}
+
+.title-2 {
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.title-3 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+p {
+  color: #434455;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  color: #404bbf;
+}
+
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-decoration: none;
+}
