@@ -3,70 +3,80 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
+      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="heder">
       <nav>
-        <a class="logo" href="./index.html"> WebStudio </a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a class="header-logo" href="./index.html">Webstudio</a>
+        <ul class="header-list">
+          <li><a class="header-navigation" href="">Studio</a></li>
+          <li><a class="header-navigation" href="">Portfolio</a></li>
+          <li><a class="header-navigation" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address class="adres">
+      <address class="header-adres">
         <ul>
           <li>
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="header-adres-link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="header-adres-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
           </li>
         </ul>
       </address>
     </header>
 
     <main>
-      <section>
-        <h1 class="title-1">Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="main">
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button class="main-button" type="button">Order Service</button>
       </section>
 
-      <section>
-        <!-- rename -->
-        <h2 class="title-2">Advantages</h2>
+      <section class="advantages">
+        <h2 class="title-second">Our advantages</h2>
         <ul>
           <li>
-            <h3 class="title-3">Strategy</h3>
+            <h3 class="title-third">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="title-3">Punctuality</h3>
+            <h3 class="title-third">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="title-third">Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="title-3">Technologies</h3>
+            <h3 class="title-third">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -75,8 +85,8 @@
         </ul>
       </section>
 
-      <section>
-        <h2 class="title-2">Our Team</h2>
+      <section class="our-team">
+        <h2 class="title-second">Our Team</h2>
         <ul>
           <li>
             <img
@@ -85,7 +95,7 @@
               width="264"
               height="260"
             />
-            <h3 class="title-3">Mark Guerrero</h3>
+            <h3 class="title-third">Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
           <li>
@@ -95,7 +105,7 @@
               width="264"
               height="260"
             />
-            <h3 class="title-3">Tom Ford</h3>
+            <h3 class="title-third">Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
           <li>
@@ -105,7 +115,7 @@
               width="264"
               height="260"
             />
-            <h3 class="title-3">Camila Garcia</h3>
+            <h3 class="title-third">Camila Garcia</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -115,14 +125,14 @@
               width="264"
               height="260"
             />
-            <h3 class="title-3">Daniel Wilson</h3>
+            <h3 class="title-third">Daniel Wilson</h3>
             <p>UI Designer</p>
           </li>
         </ul>
       </section>
 
-      <section>
-        <h2 class="title-2">Our Portfolio</h2>
+      <section class="our-portfolio">
+        <h2 class="title-second">Our Portfolio</h2>
         <ul>
           <li>
             <img
@@ -130,7 +140,7 @@
               width="360"
               alt="many screenshots of the banking app"
             />
-            <h3 class="title-3">Banking App</h3>
+            <h3 class="title-third">Banking App</h3>
             <p>App</p>
           </li>
           <li>
@@ -157,7 +167,7 @@
               width="360"
               alt="interior of the car"
             />
-            <h3 class="title-3">Taxi Service</h3>
+            <h3 class="title-third">Taxi Service</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -166,7 +176,7 @@
               width="360"
               alt="smartphone and screensavers"
             />
-            <h3 class="title-3">Screen Illustrations</h3>
+            <h3 class="title-third">Screen Illustrations</h3>
             <p>Design</p>
           </li>
           <li>
@@ -175,15 +185,15 @@
               width="360"
               alt="girl with a smartphone"
             />
-            <h3 class="title-3">Online Courses</h3>
+            <h3 class="title-third">Online Courses</h3>
             <p>Marketing</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a class="logo" href="./index.html">
+    <footer class="foter">
+      <a class="foter-logo" href="./index.html">
         <!-- <img src="./images/logo.png" alt="logo" /> -->
         WebStudio
       </a>
