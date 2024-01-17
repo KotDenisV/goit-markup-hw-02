@@ -37,17 +37,21 @@ body {
   list-style-type: none;
 }
 
+.header-adres {
+  font-style: normal;
+}
+
 .header-adres ul {
   list-style-type: none;
 }
 
 .header-adres-link {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: #434455;
 }
 
 .header-adres-link:hover,
@@ -98,11 +102,17 @@ body {
   list-style-type: none;
 }
 
+.advantages-text {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
 .title-third {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -110,23 +120,21 @@ body {
   background-color: #f4f4fd;
 }
 
-.our-team h3 {
-  text-align: center;
-}
-
 .our-team ul {
   list-style-type: none;
 }
 
-.our-team p {
-  text-align: center;
+.our-team-text {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .our-portfolio ul {
   list-style-type: none;
 }
 
-.p {
+.our-portfolio-text {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
